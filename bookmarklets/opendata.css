@@ -30,6 +30,9 @@
 #sidebar-wrapper-own {
     width: 24%;
 }
+.sidebar .widget {
+    background: transparent;
+}
 .post h3 {
     font-family: 'Lato', sans-serif;
     border-bottom: 1px solid lightgrey;
