@@ -1,4 +1,14 @@
 //Start by getting jquery
+function createLink(var uri) {
+    var cssLink = document.createElement('link');
+    cssLink.setAttribute('rel', 'stylesheet');
+    cssLink.setAttribute('href', uri);
+    return cssLink;
+}
+function addLink(var uri) {
+    var cssLink = createLink(uri);
+    document.body.appendChild(cssLink);
+}
 function getCorrectCss() {
     var currentHref = location.href;
     var cssFileName = '';
@@ -11,14 +21,22 @@ function getCorrectCss() {
     if (cssFileName === '') {
         return;
     }
-    var cssLink = document.createElement('link');
-    cssLink.setAttribute('rel', 'stylesheet');
-    cssLink.setAttribute('href', 'http://cssbookmarklet.azurewebsites.net/bookmarklets/' + cssFileName);
-    document.body.appendChild(cssLink);
+    
+    addLink('http://cssbookmarklet.azurewebsites.net/bookmarklets/' + cssFileName);
 
 }
+function getCustomGoogleFonts() {
+    var fontUri = 'https://fonts.googleapis.com/css?family=Damion|Alegreya:400,700,400italic|Alegreya+SC:400,700|Lato:400,300,700,400italic,300italic';
+    addLink(fontUri);
+}
+
 //I'm not even using jQuery right now, but I load it anyway.
 var jQueryLink = document.createElement('script');
 jQueryLink.setAttribute('src', 'https://code.jquery.com/jquery-2.1.4.min.js');
 document.body.appendChild(jQueryLink);
-setTimeout(function() { getCorrectCss(); }, 10);
+setTimeout(function() { 
+    getCustomGoogleFonts(); 
+}, 100);
+setTimeout(function() { 
+    getCorrectCss(); 
+}, 10);
