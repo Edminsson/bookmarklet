@@ -70,5 +70,11 @@ h2 {
         clear:none;
         float:none;
     }
-    
+    img#BLOGGER_PHOTO_ID_5517459366344252642 {
+        float: none !important;
+    }
+    img#BLOGGER_PHOTO_ID_5517459366344252642:after {
+        content: "";
+        clear:both;
+    }     
 }
