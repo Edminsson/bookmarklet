@@ -5,7 +5,14 @@
 }
 
 #outer-wrapper {
+    font-family: 'Alegreya', serif;
+    font-size: 17px;
     width: 84%;
+}
+#outer-wrapper a {
+    font-size: 15px;
+    font-family: 'Lato','Alegreya SC';
+    /* font-weight: 300; */
 }
 #main-wrapper {
     width: 47%;
@@ -34,7 +41,7 @@ h2 {
     background-color: #7C9082;
     font-family: 'Lato',Trebuchet,Arial,Verdana,Sans-serif;
     font-weight: 300;
-    font-size: 100%;
+    font-size: 13px;;
 }
 @media screen and (max-width:1000px) {
     #sidebar-wrapper {
@@ -75,5 +82,9 @@ h2 {
         display: block;
         height: auto;
         width:auto;
+        margin: 0 auto;
+        border: none;
+        padding: 0;
+        passing-bottom:20px;
     }
 }
