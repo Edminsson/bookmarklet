@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-#content-wrapper, #wrap2 {
-    background: #7BBCD9;
-}
 #outer-wrapper {
     width: 84%;
 }
@@ -30,12 +27,11 @@
     background: transparent;
     color: #444;
 }
-
 h2 {
     text-align: center;
     float: none;
     padding: 10px 5px;
-    background-color: #3D3E49;
+    background-color: #7C9082;
     font-family: 'Lato',Trebuchet,Arial,Verdana,Sans-serif;
     font-weight: 300;
     font-size: 100%;
