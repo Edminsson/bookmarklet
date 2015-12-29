@@ -1,11 +1,11 @@
 //Start by getting jquery
-function createLink(var uri) {
+function createLink(uri) {
     var cssLink = document.createElement('link');
     cssLink.setAttribute('rel', 'stylesheet');
     cssLink.setAttribute('href', uri);
     return cssLink;
 }
-function addLink(var uri) {
+function addLink(uri) {
     var cssLink = createLink(uri);
     document.body.appendChild(cssLink);
 }
