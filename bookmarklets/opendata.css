@@ -14,6 +14,9 @@
     font-family: 'Lato','Alegreya SC';
     /* font-weight: 300; */
 }
+#outer-wrapper h3 {
+    padding-bottom: 5px;
+}
 #main-wrapper {
     width: 47%;
 }
@@ -38,10 +41,13 @@
     background: transparent;
     color: #444;
 }
+.post-body {
+    line-height: 1em;   
+}
 h2 {
     text-align: center;
     float: none;
-    padding: 10px 5px;
+    padding: 0 0 5px 0;
     font-family: 'Lato',Trebuchet,Arial,Verdana,Sans-serif;
     font-size: 13px;;
     border-bottom: 1px solid lightgrey;
