@@ -7,7 +7,8 @@ function createLink(uri) {
 }
 function addLink(uri) {
     var cssLink = createLink(uri);
-    document.body.appendChild(cssLink);
+    //document.body.appendChild(cssLink);
+    document.head.appendChild(cssLink);
 }
 function getCorrectCss() {
     var currentHref = location.href;
