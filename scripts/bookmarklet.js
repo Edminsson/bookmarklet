@@ -19,6 +19,9 @@ function getCorrectCss() {
     if(currentHref.indexOf('rolfsdotter') > 0) {
         cssFileName = 'rolfsdotter.css';
     }
+    if(currentHref.indexOf('opendata') > 0) {
+        cssFileName = 'opendata.css';
+    }
     if (cssFileName === '') {
         return;
     }
