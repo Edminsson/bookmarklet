@@ -46,6 +46,7 @@ h2 {
     font-size: 13px;;
     border-bottom: 1px solid lightgrey;
     background-color: transparent;
+    color: #444;
 }
 @media screen and (max-width:1000px) {
     #sidebar-wrapper {
