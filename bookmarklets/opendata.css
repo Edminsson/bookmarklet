@@ -1,4 +1,27 @@
-body {
-	background-color:blue;
-	font-family: 'Damion', 'Lato', sans-serif;
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#main-wrapper {
+    width: 50%;
+}
+
+#sidebar-wrapper-large-own {
+    width: 50%;
+}
+.post h3 a, .post h3 a:visited, .post h3 strong {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 120%;
+    background: transparent;
+    color: #444;
+}
+
+h2 {
+    float: none;
+    padding: 10px 5px;
+    background: #c90;
+    font: normal normal 78% 'Lato',Trebuchet,Arial,Verdana,Sans-serif;
 }
