@@ -5,11 +5,17 @@
 }
 
 #main-wrapper {
-    width: 50%;
+    width: 47%;
 }
 
 #sidebar-wrapper-large-own {
     width: 50%;
+}
+#sidebar-wrapper {
+    width: 24%;
+}
+#sidebar-wrapper-own {
+    width: 24%;
 }
 .post h3 a, .post h3 a:visited, .post h3 strong {
     font-family: 'Lato', sans-serif;
