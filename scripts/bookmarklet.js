@@ -13,7 +13,7 @@ function getCorrectCss() {
     }
     var cssLink = document.createElement('link');
     cssLink.setAttribute('rel', 'stylesheet');
-    cssLink.setAttribute('href', 'bookmarklets/' + cssFileName);
+    cssLink.setAttribute('href', 'http://cssbookmarklet.azurewebsites.net/bookmarklets/' + cssFileName);
     document.body.appendChild(cssLink);
 
 }
