@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+#content-wrapper, #wrap2 {
+    background: #7BBCD9;
+}
+#outer-wrapper {
+    width: 84%;
+}
 #main-wrapper {
     width: 47%;
 }
@@ -12,7 +18,7 @@
     width: 50%;
 }
 #sidebar-wrapper {
-    width: 24%;
+    width: 24.5%;
 }
 #sidebar-wrapper-own {
     width: 24%;
@@ -26,8 +32,11 @@
 }
 
 h2 {
+    text-align: center;
     float: none;
     padding: 10px 5px;
-    background: #c90;
-    font: normal normal 78% 'Lato',Trebuchet,Arial,Verdana,Sans-serif;
+    background-color: #3D3E49;
+    font-family: 'Lato',Trebuchet,Arial,Verdana,Sans-serif;
+    font-weight: 300;
+    font-size: 100%;
 }
