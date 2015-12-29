@@ -36,3 +36,17 @@ h2 {
     font-weight: 300;
     font-size: 100%;
 }
+@media screen and (max-width:900px) {
+    #sidebar-wrapper {
+        width: 50%;
+        clear:none;
+        float:right;
+    }
+    #sidebar-wrapper-own {
+        width: 50%;
+        clear:none;
+        float:right;
+        margin-right: 0;
+    }
+    
+}
