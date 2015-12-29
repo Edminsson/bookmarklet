@@ -36,7 +36,7 @@ h2 {
     font-weight: 300;
     font-size: 100%;
 }
-@media screen and (max-width:900px) {
+@media screen and (max-width:1000px) {
     #sidebar-wrapper {
         width: 50%;
         clear:none;
@@ -47,6 +47,28 @@ h2 {
         clear:none;
         float:right;
         margin-right: 0;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    #main-wrapper {
+        width: 100%;
+        float:none;
+    }
+    #sidebar-wrapper-large-own {
+        width: 100%;
+        padding-top: 20px;
+        float:none;
+    }
+    #sidebar-wrapper {
+        width: 100%;
+        clear:none;
+        float:none;
+    }
+    #sidebar-wrapper-own {
+        width: 100%;
+        clear:none;
+        float:none;
     }
     
 }
