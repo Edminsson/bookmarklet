@@ -72,9 +72,8 @@ h2 {
     }
     img#BLOGGER_PHOTO_ID_5517459366344252642 {
         float: none !important;
+        display: block;
+        height: auto;
+        width:auto;
     }
-    .post-body a:after {
-        content: "";
-        clear:both;
-    }     
 }
