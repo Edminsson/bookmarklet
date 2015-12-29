@@ -45,6 +45,7 @@ h2 {
     font-family: 'Lato',Trebuchet,Arial,Verdana,Sans-serif;
     font-size: 13px;;
     border-bottom: 1px solid lightgrey;
+    background-color: transparent;
 }
 @media screen and (max-width:1000px) {
     #sidebar-wrapper {
