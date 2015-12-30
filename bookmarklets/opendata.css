@@ -19,6 +19,7 @@
 }
 #main-wrapper {
     width: 47%;
+     background-color: transparent;
 }
 #superheader {
     height: 0;
@@ -28,10 +29,15 @@
     margin: 0 auto;
     padding-top: 10px;
 }
+img#BLOGGER_PHOTO_ID_5517459366344252642 {
+    border: none;
+    padding: 0;
+}
 #sidebar-wrapper-large-own {
     width: 50%;
     border:1px solid #ccc;
     border-left: 5px solid #DDAE4A;
+    margin-bottom: 10px;
 }
 #sidebar-wrapper {
     width: 24.5%;
@@ -51,7 +57,7 @@
 }
 .post h3 {
     font-family: 'Lato', sans-serif;
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid #DDAE4A;
 }
 .post h3 a, .post h3 a:visited, .post h3 strong {
     font-family: 'Lato', sans-serif;
@@ -113,8 +119,6 @@ h2 {
         height: auto;
         width:auto;
         margin: 0 auto;
-        border: none;
-        padding: 0;
-        passing-bottom:20px;
+        padding-bottom:20px;
     }
 }
