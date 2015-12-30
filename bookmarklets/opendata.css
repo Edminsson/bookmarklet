@@ -55,6 +55,9 @@ img#BLOGGER_PHOTO_ID_5517459366344252642 {
 .sidebar .widget {
     background: transparent;
 }
+.post-body>div {
+    background-color: #9BBDF9;
+}
 .post h3 {
     font-family: 'Lato', sans-serif;
     border-bottom: 1px solid #DDAE4A;
