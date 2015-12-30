@@ -19,7 +19,9 @@
 }
 #main-wrapper {
     width: 47%;
-     background-color: transparent;
+    background-color: transparent;
+    border:1px solid #ccc;
+    border-left: 5px solid #DDAE4A;
 }
 #superheader {
     height: 0;
@@ -60,7 +62,7 @@ img#BLOGGER_PHOTO_ID_5517459366344252642 {
 }
 .post h3 {
     font-family: 'Lato', sans-serif;
-    border-bottom: 1px solid #DDAE4A;
+    border-bottom: 1px solid rgba(221, 174, 74, 0.5);;
 }
 .post h3 a, .post h3 a:visited, .post h3 strong {
     font-family: 'Lato', sans-serif;
@@ -73,12 +75,12 @@ img#BLOGGER_PHOTO_ID_5517459366344252642 {
     line-height: 1em;   
 }
 h2 {
-    text-align: center;
+    /*text-align: center;*/
     float: none;
     padding: 0 0 5px 0;
     font-family: 'Lato',Trebuchet,Arial,Verdana,Sans-serif;
     font-size: 13px;;
-    border-bottom: 1px solid #DDAE4A;
+    border-bottom: 1px solid rgba(221, 174, 74, 0.5);
     background-color: transparent;
     color: #444;
 }
