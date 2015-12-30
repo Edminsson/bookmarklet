@@ -93,7 +93,7 @@ h2 {
     }
     
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:650px) {
     #main-wrapper {
         width: 100%;
         float:none;
