@@ -1,26 +1,25 @@
 //Start by getting jquery
-function createLink(uri) {
-    var cssLink = document.createElement('link');
-    cssLink.setAttribute('rel', 'stylesheet');
-    cssLink.setAttribute('href', uri);
-    return cssLink;
+function createScriptElement(uri) {
+    var scriptElement = document.createElement('script');
+    scriptElement.setAttribute('src', uri);
+    document.body.appendChild(scriptElement);
+    return scriptElement;
 }
-function addLink(uri) {
-    var cssLink = createLink(uri);
-    //document.body.appendChild(cssLink);
-    document.head.appendChild(cssLink);
+function addScriptElement(uri) {
+    var scriptLink = createScriptElement(uri);
+    document.head.appendChild(scriptLink);
 }
 function addScript() {
     var currentHref = location.href;
-    var cssFileName = '';
+    var scriptFileName = '';
     if(currentHref.indexOf('sok.') > 0) {
-        cssFileName = 'sok.css';
+        scriptFileName = 'sok.js';
     }
-    if (cssFileName === '') {
+    if (scriptFileName === '') {
         return;
     }
     
-    addLink('http://cssbookmarklet.azurewebsites.net/bookmarklets/' + cssFileName);
+    addScriptElement('https://cssbookmarklet.azurewebsites.net/bookmarklets/' + scriptFileName);
 
 }
 
