@@ -1,4 +1,4 @@
-var meddela = function(medd) {
+window.meddela = function(medd) {
     console.log(medd);
     alert(medd);
 }
